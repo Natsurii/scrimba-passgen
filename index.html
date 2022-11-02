@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://api.fontshare.com/v2/css?f[]=plus-jakarta-sans@800,801,201,401,301,501,400,601,1,500,600,700,701,300,2,200&display=swap" rel="stylesheet">
+            
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Generate a<br><span class="subtext">Secure password</span></h1>
+        <p>Users are always the weakest link in the security.</p>
+        <br>
+        <input type="range" name="chars" id="chars" min="8" max="32"> <label for="chars">8 characters</label>
+        <br>
+        <input type="checkbox" name="uppercase" id="uppercase"><label for="uppercase">uppercase</label>
+        <input type="checkbox" name="symbols" id="symbols"><label for="symbols">symbols</label>
+        <br>
+        <button id="container__generate-btn">Generate a password</button>
+
+        <hr>
+        <div class="pass-container">
+            <div class="pass-item" id="item1"></div>
+            <div class="pass-item" id="item2"></div>
+            <div class="pass-item" id="item3"></div>
+        </div>
+    </div>
+</body>
+</html>

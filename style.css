@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+    font-size: 61.5%;
+    --text-color: white;
+    --container-bg: #1F2937;
+    --accent-color: #A78BFA;
+}
+
+body {
+    height: 100vh;
+    font-size: 1.8rem;
+    background: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    color: var(--text-color);
+    width: 550px;
+    height: 550px;
+    background: var(--container-bg);
+    border-radius: 20px;
+    padding: 3rem 5rem;
+}
+
+h1 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: 800;
+    line-height: 5rem;
+}
+.subtext {
+    color: var(--accent-color);
+}
+
+button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    color: var(--text-color);
+    background: var(--accent-color);
+}
+
+input[type="checkbox"] {
+    margin: 1rem;
+}
+
+.pass-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+hr {
+    margin: .5rem 0;
+}
+pre {
+    color: var(--container-bg);
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+    background-color: var(--accent-color);
+}
